@@ -1,3 +1,4 @@
+import Image from "next/image"
 type Project = {
     title: string
     description: string
@@ -9,7 +10,13 @@ type Project = {
   export default function ProjectCard({ project }: { project: Project }) {
     return (
       <div className="bg-white rounded-xl shadow-md overflow-hidden border hover:shadow-lg transition">
-        <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+        <Image
+            src={project.image}
+            alt={project.title}
+            width={500} // required
+            height={200} // required
+            className="w-full h-48 object-cover"
+          />
         <div className="p-4">
           <h3 className="text-xl font-semibold">{project.title}</h3>
           <p className="text-gray-600 text-sm my-2">{project.description}</p>

@@ -14,7 +14,7 @@ export default function Navbar() {
   const pathname = usePathname()
 
   return (
-    <nav className="bg-gray-900 text-white px-6 py-4 flex justify-between items-center shadow-md">
+    <nav className=" text-black px-6 py-4 flex justify-between items-center shadow-md">
       <div className="text-xl font-bold">Chaitanya</div>
       <ul className="flex gap-4">
         {links.map((link) => (
