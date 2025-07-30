@@ -10,7 +10,7 @@ export default function Hero() {
         </p>
         <a
           href="/projects"
-          className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+          className="bg-black text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
         >
           View My Work
         </a>
