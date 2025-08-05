@@ -9,7 +9,7 @@ export const projects = [
     {
       title: 'Ski Weekends',
       description: 'Booking and travel management portal developed in CodeIgniter.',
-      image: '/images/skiweekends.jpg',
+      image: '/ski.png',
       tech: ['CodeIgniter', 'Bootstrap', 'API'],
       link: 'https://skiweekends.com',
     },

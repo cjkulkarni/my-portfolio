@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function About() {
     return (
-      <section className=' mx-auto flex max-w-6xl'>
+      <section className=' mx-auto flex max-w-7xl py-11 '>
         <div className="w-1/2">
       <Image
         src="/user.jpg"

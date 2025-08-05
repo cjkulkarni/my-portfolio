@@ -13,8 +13,8 @@ type Project = {
         <Image
             src={project.image}
             alt={project.title}
-            width={500} // required
-            height={200} // required
+            width={50} // required
+            height={50} // required
             className="w-full h-48 object-cover"
           />
         <div className="p-4">

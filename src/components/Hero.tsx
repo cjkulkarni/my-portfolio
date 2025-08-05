@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
       <section className="min-h-[80vh] flex flex-col justify-center items-center text-center px-4 custom-gradient">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
+        <h1 className="text-4xl md:text-7xl font-bold mb-4 text-white">
           Hi, I’m Chaitanya Kulkarni
         </h1>
         <p className="text-xl md:text-2xl text-white max-w-2xl mb-6">

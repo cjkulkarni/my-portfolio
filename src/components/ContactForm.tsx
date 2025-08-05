@@ -25,7 +25,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="max-w-xl mx-auto bg-white p-8 rounded-xl shadow">
+    <div className="max-w-7xl mx-auto bg-white p-8 rounded-xl shadow">
       {submitted ? (
         <div className="text-green-600 text-center font-semibold">
           Thanks! Your message has been sent. 🙌
